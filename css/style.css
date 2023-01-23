@@ -1,10 +1,17 @@
-body {
+* {
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     text-align: center;
+}
 
+.container {
+    width: 33%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
 }
 
 h2 {
@@ -17,9 +24,11 @@ p {
     line-height: 1px;
     padding-left: 0.2rem;
 }
-.pheader{
+
+.pheader {
     font-size: smaller;
 }
+
 hr.top {
     width: 90%;
     border: 0.4rem solid black;
@@ -46,36 +55,45 @@ hr.black {
     font-size: 0.6rem;
 }
 
+.center {
+    padding-left: 15px;
+}
+
 .flexamount {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     padding: 0.1rem 0.2rem;
     font-size: smaller;
 }
 
-.flexcalories{
+.flexcalories {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     padding: 0.1rem 0.2rem;
     font-size: 0.7rem;
     font-weight: bolder;
 }
-#calories{
+
+.font {
+    font-size: 0.7rem;
+
+}
+
+.calories {
     margin-left: 2rem;
 }
-.divflex{
+
+.divflex {
     margin-left: 5rem;
 }
+
 hr.grau {
     border: 0.1rem solid rgb(194, 188, 188);
     margin: 0 0 0 0.6rem;
     width: 95%;
 }
-hr.blackcalories{
+
+hr.blackcalories {
     width: 95%;
     margin: 0 auto;
     border: 3px solid black;
